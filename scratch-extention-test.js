@@ -162,7 +162,6 @@ class ScratchGamepad {
                             "i": {
                                 "type": "number",
                                 "defaultValue": "1",
-                                "menu": "padMenu"
                             },
                         },                    
                     },
