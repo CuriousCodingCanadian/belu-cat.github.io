@@ -136,11 +136,11 @@ class ScratchGamepad {
                         "arguments": {
                             "b": {
                                 "type": "number",
-                                "defaultValue": "3"
+                                "defaultValue": "1"
                             },
                             "pr": {
                                 "type": "number",
-                                "defaultValue": "1",
+                                "defaultValue": "5",
                                 "menu": "pressReleaseMenu"
                             },
                             "i": {
