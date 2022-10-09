@@ -151,21 +151,6 @@ class ScratchGamepad {
                         },
                     },
                     {
-                        "opcode": "buttonDown",
-                        "blockType": "Boolean",
-                        "text": "button [b] of pad [i] is down",
-                        "arguments": {
-                            "b": {
-                                "type": "number",
-                                "defaultValue": "1"
-                            },
-                            "i": {
-                                "type": "number",
-                                "defaultValue": "1",
-                            },
-                        },                    
-                    },
-                    {
                         "opcode": "axisMoved",
                         "blockType": "hat",
                         "text": "axis [b] of pad [i] moved",
