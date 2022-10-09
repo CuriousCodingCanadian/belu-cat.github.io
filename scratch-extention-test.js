@@ -201,7 +201,7 @@ class ScratchGamepad {
                     {
                         "opcode": "rumble",
                         "blockType": "command",
-                        "text": "rumble strong [s] and weak [w] for [t] sec. on pad [i]",
+                        "text": "rumble lol [s] and weak [w] for [t] sec. on pad [i]",
                         "arguments": {
                             "s": {
                                 "type": "number",
