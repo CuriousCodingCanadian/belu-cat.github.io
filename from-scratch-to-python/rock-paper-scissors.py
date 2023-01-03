@@ -1,66 +1,28 @@
-from random import randint
+from random import choice
 
 def youchoose():
-    youchoseappend = "You choose"
-    if choice == "rock":
-        print(youchoseappend + " Rock")
-    elif choice == "paper":
-        print(youchoseappend + " Paper")
-    elif choice == "scissors":
-        print(youchoseappend + " scissors")
+    userin = 'Banana'
+    while userin.title() not in ["Rock", "Paper", "Scissors"]:
+        userin = input("Please enter your choice: ")
+    return userin.title() 
+    
+opponentchose = "Your opponent chooses"
 
-randchoice = randint(1,3)
-def randchoose():
-    youchoseappend = "Your opponent chooses"
-    if randchoice == 1:
-        print(youchoseappend + " Rock")
-    elif randchoice == 2:
-        print(youchoseappend + " Paper")
-    elif randchoice == 3:
-        print(youchoseappend + " scissors")
+def opponentchoose():
+    return random.choice(["Rock", "Paper", "Scissors"])
 
-def check():
+def main():
+    rps = ["Rock", "Paper", "Scissors"]
     wins = 0
     losses = 0
     ties = 0
-    if choice == "paper":
-        if randchoice == 1:
-            print("You won!")
-            wins += 1
+    choice = youchoose()
+    uchoiceset = set()
     
-        if randchoice == 2:
-            print("It was a tie.")
-            ties += 1
     
-        if randchoice == 3:
-            print("Your opponent won.")
-            losses += 1
-
-    if choice == "rock":
-        if randchoice == 1:
-            print("It was a tie.")
-            ties += 1
+# not complete    
     
-        if randchoice == 2:
-            print("Your opponent won.")
-            losses += 1
     
-        if randchoice == 3:
-            print("You won!")
-            wins += 1
-
-    if choice == "scissors":
-        if randchoice == 1:
-            print("Your opponent won.")
-            losses += 1
-    
-        if randchoice == 2:
-            print("You won!")
-            wins += 1
-    
-        if randchoice == 3:
-            print("It was a tie.")
-            ties += 1
 
 x = 0
 while x < 10:
